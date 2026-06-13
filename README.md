@@ -1,16 +1,21 @@
 # SENSOR MAINTENANCE DATA EXPLORATION & QUALITY ASSESSMENT USING PYTHON
 
 ## Project Overview
-The aim of this project is to explore sensor maintenance data using python and pandas
+This project explores an industrial sensor maintenance dataset using python and pandas to assess data quality, identify missing values, and summarize equipment operating conditions through descriptive statistics.
 
 ## Skills Demonstrated
- Data Loading, and inspection
- Descriptive statistics
- Basic data quality assessment and missing value identification
+ -Python
+ -Pandas
+ -Data Loading, and inspection
+ -Data Wrangling
+ -Missing Value Analysis
+ -Descriptive statistics
+ -Basic data quality assessment
 
- ## Key Findings
- 
-1. The data set contains 500 maintenance records and 27 features.
-2. There aare no missing values except for " Failure type" columns where there aare 300 missing values.
-3.  Averge maintenance cost was $195. Average vibrations reading is 0.3 m/s2 and maximu is 0.4m/s2.
-4. The maximum rpair hour is 9hrs, and average repair time is 2.3 hours. 
+ ## Dataset Summary
+ -Records: 500
+ -Features: 27
+ -Missing Values: 300 in Failure Type column
+ -Average Maintenance Cost: $195
+ -Average Vibration Reading: 0.3 m/s2
+ -Averge Repair Time: 2.3 hrs
